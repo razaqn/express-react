@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <div className="container">
-        <h1>Manajemen Product</h1>
+        <h1>Manajemen Products</h1>
         <Routes>
           <Route path='/' element={<ProductList/>}/>
           <Route path='/add' element={<ProductForm/>}/>
